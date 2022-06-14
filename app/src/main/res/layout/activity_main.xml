@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#6d6875"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_calculate_your"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/calculate_your"
+        android:textAllCaps="true"
+        android:textColor="#ffcdb2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/age"
+        android:background="#e5989b"
+        android:padding="15dp"
+        android:textAllCaps="true"
+        android:textColor="#595E49"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/in_minutes"
+        android:textAllCaps="true"
+        android:textColor="#ffcdb2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <Button
+        android:id="@+id/btn_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4C415C"
+        android:text="@string/select_date"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#ffcdb2"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/_03_18_2022"
+        android:textSize="20sp"
+        android:textColor="@color/beigecool"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/selected_date"
+        android:textSize="20sp"
+        android:textColor="#332720"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/tv_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/_1400000000000"
+        android:textSize="35sp"
+        android:textColor="@color/beigecool"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/in_minutes_til_date"
+        android:textSize="20sp"
+        android:textColor="#332720"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+
+
+</LinearLayout>
